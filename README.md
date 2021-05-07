@@ -4,7 +4,7 @@
 
 #### This project has following features:
 
-##### **It's a React-based Project**
-**Its responsive**
-**It has grid adjusted according to size of image**
-**Infinite scroll**
+##### **It's a React-based Project** **Enter**
+**Its responsive** **Enter**
+**It has grid adjusted according to size of image** **Enter**
+**Infinite scroll** **Enter**
