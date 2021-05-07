@@ -1,0 +1,116 @@
+
+.h-flex.ac {
+    align-items: center;
+}
+.h-flex.sb {
+    justify-content: space-between;
+ 
+}
+
+
+.v-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.v-flex.ac {
+    align-items: center;
+}
+
+.app {
+    text-align: center;
+}
+
+.app-header {
+    background-color: rgb(15, 8, 51);
+    justify-content: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    min-height: 150px;
+    opacity: 95%
+    ;
+}
+
+.search-input {
+    width: 50%;
+    margin: 0 20px;
+    padding-left:1vw;
+    border-radius: 1.5vw;
+    height:2vw;
+    background-color:rgb(218, 218, 218);
+    border: none;
+    padding: 6px;
+    font-size: 1.3vw;
+}
+
+.app-content {
+    position: relative;
+    margin-top: 190px;
+    padding: 30px;
+}
+
+.gallery
+{
+
+    line-height: 0;       
+    -webkit-column-count: 3;    
+    -webkit-column-gap: 10px;    
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+     column-count: 3;    
+     column-gap: 10px;  
+     margin-right: auto;    
+     margin-left: auto;  
+     width:70%;
+     row-gap:1vw;
+ 
+}
+
+#gallery img {    
+    width: 100% !important;    
+    height: auto !important;  
+    margin-bottom:3vw !important;
+}
+.image-style{
+    margin-bottom: 2.5vw;
+}
+@media (max-width: 1300px) {
+    .gallery {
+    -moz-column-count:    2 !important ;
+    -webkit-column-count: 2 !important;
+    column-count:         2 !important;
+    }
+    
+   } 
+   
+
+     @media (max-width: 1100px) {
+        .gallery {
+        -moz-column-count:    2 !important ;
+        -webkit-column-count: 2 !important;
+        column-count:         2 !important;
+        }
+        
+       }  
+     @media (max-width: 800px) {
+        .gallery {
+        -moz-column-count:    1 !important;
+        -webkit-column-count: 1 !important;
+        column-count:         1 !important;
+       
+        }
+        img{
+            width: 50%;
+        }
+       }  
+     @media (max-width: 400px) {
+        .gallery {
+        -moz-column-count:    1;
+        -webkit-column-count: 1;
+         column-count:        1;
+        }
+       }
