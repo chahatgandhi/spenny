@@ -65,7 +65,7 @@
      column-gap: 10px;  
      margin-right: auto;    
      margin-left: auto;  
-     width:70%;
+    width:70%;
      row-gap:1vw;
  
 }
@@ -104,7 +104,7 @@
        
         }
         img{
-            width: 50%;
+            width: 70%;
         }
        }  
      @media (max-width: 400px) {
